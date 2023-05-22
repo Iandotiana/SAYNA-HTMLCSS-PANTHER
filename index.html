@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/acceuil.css">
     <title>Black Panther | Acceuil</title>
 </head>
 <body>
-    <div>
+    <div class="conteneur" >
         <header>
             <div class="logo">
                 <img src="./Illustrations + Logo/All pages/icon_SAYNA.png" alt="">
@@ -16,20 +17,29 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="">ACCEUIL</a></li>
-                    <li><a href="">WAKANDA</a></li>
-                    <li><a href="">ENIGME</a></li>
+                    <li><a href="index.html">ACCEUIL</a></li>
+                    <li><a href="wakanda.html">WAKANDA</a></li>
+                    <li><a href="enigme.html">ENIGME</a></li>
                 </ul>
             </nav>
         </header>
+        <div class="bar1">
+            <div class="bar2"></div>
+            <div class="petit-icon">
+                <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html"><img src="./Illustrations + Logo/All pages/icon_facebook.png" alt=""></a> <br>
+                <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html"><img src="./Illustrations + Logo/All pages/icon_instagram.png" alt=""></a><br>
+                <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html"><img src="./Illustrations + Logo/All pages/icon_twitter.png" alt=""></a><br>
+                <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html"><img src="./Illustrations + Logo/All pages/icon_tiktok.png" alt=""></a>
+            </div>
+        </div>
         <main>
     
             <!-- la première section  -->
-            <section >
+            <section id="section1">
                 <div class="description">
-                    <h1>BLACK PANTHER</h1>
-                    <h2>WAKANDA FOREVER</h2>
-                    <p>En plus d'être un film qui fait la part belle aux héroïnes, Black Panther rend
+                    <h1 class="description-titre">BLACK PANTHER</h1>
+                    <h2 class="description-sous-titre">WAKANDA FOREVER</h2>
+                    <p class="description-texte">En plus d'être un film qui fait la part belle aux héroïnes, Black Panther rend
                         hommage aux cultures africaine et afro américaine. On y évoque le
                         racisme, la colonisation et les violences contre les afro américains. 
                         
@@ -38,18 +48,18 @@
                     <a href="">Voir plus ></a>
                 </div>
                 <div class="illustration1">
-                    <img src="./Illustrations + Logo/Accueil/Pantherhome1..png" alt="">
+                    <img src="./Illustrations + Logo/Accueil/Pantherhome1..png" width="900px">
                 </div>
             </section>
     
     
             <!-- la deuxième section -->
-            <section>
+            <section id="section2">
                 <div class="personnage">
-                    <img src="./Illustrations + Logo/Accueil/Pantherhome2.png" alt="">
+                    <img class="overflow" src="./Illustrations + Logo/Accueil/Pantherhome2.png" alt="">
                     <div class="description-personnage">
                         <h2>KILLMONGER</h2>
-                        <p>
+                        <p class="personnage-texte">
                             La sauvagerie de N'Jadaka alors qu'il servait dans une
                             unité d'opérations noires de l'armée américaine lui a
                             valu le surnom de Killmonger. D’origine Wakandaise,
@@ -58,29 +68,31 @@
                         </p>
                         <a href="">Voir plus ></a>
                     </div>
-                    <div class="personnage">
-                        <img src="./Illustrations + Logo/Accueil/Pantherhome3.png" alt="">
-                        <div class="description-personnage">
-                            <h2>OKOYE</h2>
-                            <p>
-                                Okoye est le général des Dora Milaje (groupe d’élite
-                                de femmes guerrières) et le chef des forces armées et
-                                des renseignements wakandais. Témoin du
-                                couronnement de T'Challa, elle se joint à lui dans de
-                                nombreuses aventures
-                            </p>
-                            <a href="">Voir plus ></a>
-                    </div>
-                    <div class="personnage">
-                        <img src="./Illustrations + Logo/Accueil/Pantherhome4.png" alt="">
-                    </div>
-    
                 </div>
+                <div class="personnage">
+                    <img src="./Illustrations + Logo/Accueil/Pantherhome3.png" alt="">
+                    <div class="description-personnage">
+                       <h2>OKOYE</h2>
+                       <p class="personnage-texte">
+                            Okoye est le général des Dora Milaje (groupe d’élite
+                            de femmes guerrières) et le chef des forces armées et
+                             des renseignements wakandais. Témoin du
+                            couronnement de T'Challa, elle se joint à lui dans de
+                            nombreuses aventures
+                        </p>
+                        <a href="">Voir plus ></a>
+                    </div>
+                </div>
+                <div class="personnage">
+                    <img src="./Illustrations + Logo/Accueil/Pantherhome4.png" alt="">
+                </div>
+    
+                
             </section>
     
             <!-- la troisième section : la description de Challa -->
     
-            <section>
+            <section id="section3">
                 <article>
                     <div class="texte">
                         <h2>Naissance d’un prince</h2>
@@ -147,7 +159,7 @@
     
                     </div>
     
-                    <div class="texte1">
+                    <div class="texte">
                         <h2>UN HEROS PROTECTEUR ET JUSTICIER</h2>
                         <p>
                             « Tu as eu tort ! Vous avez tous eu tort ! Il ne fallait pas tourner le dos au reste du monde. Nous avons laissé la peur
@@ -178,68 +190,80 @@
                 </article> 
     
                 <aside>
-                    <img src="./Illustrations + Logo/Accueil/Pantherhome5.png" alt="">
-                    <div class="nom">T'Challa</div>
-                     <div>
-                        <span>Black Panther</span>
-                        <span>Roi du Wakanda</span>
-                        <span>En vie</span>
-                     </div>
-                     <div>
-                        <p>Acteur: <strong>Chadwick Boseman</strong></p>
-                        <p>Apparition: <strong>Captain America Civil War(2016)</strong></p>
-                        <p>Espèce : <strong>Humain</strong></p>
-                        <p>Nationalité: <strong>Wakandais</strong></p>
-                        <p>Sexe: <strong>Homme</strong></p>
-                        <p>Décès: <strong>31 Mai 2018</strong> (victime du Snap ; ressuscité par Hulk en 2023) <strong>(2016)</strong></p>
-                        <p>Réalité: <strong>Terre-199999</strong></p>
-                     </div>
+                    <div class="carte">
+                        <img class="overflow2" src="./Illustrations + Logo/Accueil/Pantherhome5.png" width="396px" height="548px">
+                        <div class="nom">T'Challa</div>
+                         <div>
+                            <span class="span">Black Panther</span>
+                            <span class="span">Roi du Wakanda</span>
+                            <span class="span">En vie</span>
+                         </div>
+                         <div>
+                            <p>Acteur: <strong>Chadwick Boseman</strong></p>
+                            <p>Apparition: <strong>Captain America Civil War(2016)</strong></p>
+                            <p>Espèce : <strong>Humain</strong></p>
+                            <p>Nationalité: <strong>Wakandais</strong></p>
+                            <p>Sexe: <strong>Homme</strong></p>
+                            <p>Décès: <strong>31 Mai 2018</strong> (victime du Snap ; ressuscité par Hulk en 2023) <strong>(2016)</strong></p>
+                            <p>Réalité: <strong>Terre-199999</strong></p>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <img src="./Illustrations + Logo/Accueil/Pantherhome6.png" alt="">
+                    </div>
                 </aside>
-                <div>
-                    <img src="./Illustrations + Logo/Accueil/Pantherhome6.png" alt="">
-                </div>
+                
             </section>
     
             
         </main>
+        <!-- la troisième section : contact  -->
+        <section id="section4">
+            <div class="bgimage"><img src="./Illustrations + Logo/Accueil/Pantherhome7.png" width="1550px"></div>
+            <div class="formulaire">
+               <p>Besoin de l’intervention du Wakanda ?</p>
+                <h1>Contactez nous ! </h1>
+                <form action="">
+                    <input type="text" placeholder="Nom"> <br>
+                    <input type="text" placeholder="Email"> <br>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea> <br>
+                    <input class="bouton" type="submit" value="ENVOYER">
+              </form>
+            </div>
+       </section>
     </div>
 
-    <!-- la troisième section : contact  -->
-    <div class="formulaire">
-         <p>Besoin de l’intervention du Wakanda ?</p>
-         <h1>Contactez nous ! </h1>
-         <form action="">
-            <input type="text" placeholder="Nom"> <br>
-            <input type="text" placeholder="Email"> <br>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea> <br>
-            <input type="submit" value="ENVOYER">
-         </form>
-    </div>
-
+    
+    
     <footer>
-        <div>
-            <img src="./Illustrations + Logo/All pages/footer1.png" alt="">
-            <img src="./Illustrations + Logo/All pages/footer2.png" alt="">
+        <div class="superpose">
+            <img class="superpose-img1" src="./Illustrations + Logo/All pages/footer1.png" alt="">
+            <img class="superpose-img2" src="./Illustrations + Logo/All pages/footer2.png" alt="">
         </div>
-        <div>
-            <h2>PAGES</h2>
-            <ul>
-                <li><a href="">A propos</a></li>
-                <li><a href="">Wakanda</a></li>
-            </ul>
-        </div>
-        <div>
-            <h2>RETROUVEZ NOUS</h2>
-            <div class="icon">
-                 <img src="./Illustrations + Logo/All pages/footer3.png" alt="">
-                 <img src="./Illustrations + Logo/All pages/footer4.png" alt="">
-                 <img src="./Illustrations + Logo/All pages/footer5.png" alt="">
-                 <img src="./Illustrations + Logo/All pages/footer6.png" alt="">
+        <div class="boite">
+            
+          <div class="grid1">
+              <h2>PAGES</h2>
+                <ul>
+                  <li><a href="">A propos</a></li>
+                  <li><a href="">Wakanda</a></li>
+                </ul>
+           </div>
+            <div class="grid2">
+                <h2>RETROUVEZ NOUS</h2>
+                 <div class="icon">
+                    <img src="./Illustrations + Logo/All pages/footer3.png" alt="">
+                    <img src="./Illustrations + Logo/All pages/footer4.png" alt="">
+                    <img src="./Illustrations + Logo/All pages/footer5.png" alt="">
+                    <img src="./Illustrations + Logo/All pages/footer6.png" alt="">
+                </div>
+            </div>
+            <div class="grid3">
+                2022 Tous droits réservés - Politique de confidentialité - Conditions d’utilisation
             </div>
         </div>
-        <div>
-            2022 Tous droits réservés  Politique de confidentialité Conditions d’utilisation
-        </div>
+        
     </footer>
 
 </body>

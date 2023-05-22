@@ -1,0 +1,199 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image:url('../Illustrations + Logo/All pages/arrière_plan.png');
+    
+    color: white;
+}
+/* .conteneur
+{
+    
+} */
+
+@font-face {
+    font-family: 'panthera';
+    src: url('../Fonts/PantheraRegular-MVZ9J.ttf');
+}
+@font-face{
+    font-family: 'beyno';
+    src: url('../Fonts/BEYNO.ttf');
+}
+@font-face{
+    font-family: 'wakanda';
+    src: url('../Fonts/WakandaForever-Regular.ttf');
+}
+@font-face{
+    font-family: 'cantarell';
+    src: url('../Fonts/Cantarell-Regular.ttf');
+}
+
+/* design du header */
+header
+{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+   
+}
+
+.logo
+{
+      flex-basis: 20%;
+      margin: 1% 0;
+}
+nav
+{
+    flex-basis: 30%;
+}
+nav ul
+{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+}
+
+nav ul li
+{
+    list-style-type: none;
+}
+
+nav ul li a 
+{
+    text-decoration: none;
+    font-family: 'beyno';
+    color: #fff;
+    font-size: 22px;
+}
+nav ul li a:hover, nav ul li a:active
+{
+    color: #9E91B7;
+    text-decoration: underline;
+}
+
+
+/* design de la section 1 */
+.illustration-texte
+{
+    position: relative;
+    right: -150px;
+    bottom: 600px;
+    width: 40%;
+    
+    
+}
+.grand-titre
+{
+    font-family: 'beyno';
+    color:#9E91B7 ;
+    font-size: 53px;
+}
+.sous-titre
+{
+    font-family: 'wakanda';
+    color:#9E91B7 ;
+    font-size: 32px;
+}
+.illustration-texte p
+{
+    font-family: 'cantarell';
+    font-size: 16px;
+    text-align: justify;
+    width: 70%;
+}
+
+
+/* design de la section article */
+.bgimage 
+{
+    opacity: 0.8;
+}
+article
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 1200px;
+    
+
+}
+article h2
+{
+    font-family: 'beyno';
+    color:#9E91B7 ;
+    font-size: 32px;
+}
+
+article p
+{
+    font-family: 'cantarell';
+    font-size: 14px;
+    text-align: justify;
+}
+
+.article1,.article2
+{
+    width: 45%;
+    padding-left:5% ;
+   
+}
+.article2
+{
+    padding-right: 5%;
+}
+
+/* design du footer */
+
+footer
+{
+    background: linear-gradient(180deg, #3D2DA6 0%, #021740
+    90.43%);
+    display: flex;
+    flex-direction: row;
+    font-family: 'cantarell';
+    padding: 10% 0% 5% 15%;
+
+}
+.superpose
+{
+    margin: ;
+}
+.superpose-img2
+{
+    position: relative;
+    top: -200px;
+    left: -240px;
+}
+
+.boite
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid3
+{
+    grid-column: 1/4;
+    font-size: 12px;
+}
+
+.grid1 ul
+{
+    padding: 0;
+}
+.grid1 ul li
+{
+    list-style-type: none;
+    
+}
+.grid1 ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.icon img
+{
+ padding-right: 1%;
+}
