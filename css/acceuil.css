@@ -370,6 +370,22 @@ footer
     top: -200px;
     left: -240px;
 }
+.superpose
+{
+    transition: transform .1s ;
+}
+.superpose:hover
+{
+    transform: scale(1.3);
+}
+.icon img
+{
+    transition: transform .1s ;
+}
+.icon img:hover
+{
+    transform: scale(1.3);
+}
 
 .boite
 {
@@ -400,6 +416,23 @@ footer
 .icon img
 {
  padding-right: 1%;
+}
+
+
+/* animation de fade in */
+section , main , aside{
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 

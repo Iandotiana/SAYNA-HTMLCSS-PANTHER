@@ -238,6 +238,22 @@ footer
  padding-right: 1%;
 }
 
+/* animation de fade in */
+section , main , aside {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
 
 
 /* la responsivité du site */
