@@ -273,9 +273,9 @@ h2
 
 .overflow2
 {
-    position: relative;
-    overflow: visible;
-  
+    /* position: relative;
+    overflow: visible; */
+    margin-top: -50%;
     
 }
 
