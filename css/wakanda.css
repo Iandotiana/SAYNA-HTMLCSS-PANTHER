@@ -43,6 +43,11 @@ header
       flex-basis: 20%;
       margin: 1% 0;
 }
+
+.logo a:hover
+{
+    filter: brightness(0) saturate(100%) invert(59%) sepia(23%) saturate(376%) hue-rotate(219deg) brightness(98%) contrast(85%);
+}
 nav
 {
     flex-basis: 30%;
@@ -156,10 +161,7 @@ footer
     padding: 10% 0% 5% 15%;
 
 }
-.superpose
-{
-    margin: ;
-}
+
 .superpose-img2
 {
     position: relative;
@@ -196,4 +198,132 @@ footer
 .icon img
 {
  padding-right: 1%;
+}
+
+/* la responsivité du site */
+
+@media screen and (max-width:768px)
+{
+
+   .bar1 , .bar2
+   {
+    display: none;
+   } 
+  /* header */
+  .logo
+  {
+    margin: 5% 3%;
+  }
+  .lg1
+  {
+   width:8px ;
+   height: 10px;
+  }
+  .lg2
+  {
+   width:4px ;
+   height: 4px;
+  }
+  .lg3
+  {
+   width:25px ;
+   height: 12px;
+  }
+   nav ul
+   {
+    flex-direction: column;
+   }
+
+   nav ul li a 
+{
+    font-size: 14px;
+}
+   
+
+
+
+/* section1 */
+
+.illustration-texte
+{
+    position: static;
+    width: auto;
+    margin-left: 5%;
+}
+.illustration-image
+{
+    width: 350px;
+}
+.grand-titre
+{
+    font-size: 32px;
+}
+.sous-titre
+{
+    font-size: 22px;
+}
+.illustration-texte p
+{
+    font-size: 12px;
+}
+
+/* article */
+.bgimage
+{
+    display: none;
+}
+article
+{
+    position: static;
+    flex-direction: column;
+}
+article h2
+{
+    font-size: 22px;
+}
+
+article p
+{
+    font-size: 12px;
+} 
+.article1,.article2
+{
+    width: 80%;
+}
+video 
+{
+    width: 250px;
+   height: 250px;
+}
+.article2 img
+{
+    width: 250px;
+}
+
+/* footer */
+
+.superpose
+{
+    display: none;
+}
+.boite
+{
+    display: flex;
+    flex-direction: column;
+}
+.grid1 ul li a 
+{
+    font-size: 12px;
+}
+.grid3
+{
+    margin-top: 5%;
+    font-size: 6px;
+}
+
+.icon a img  {
+    width: 30px;
+    height: 30px;
+}
+
 }
