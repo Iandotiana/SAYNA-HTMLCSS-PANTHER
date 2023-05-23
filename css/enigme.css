@@ -237,6 +237,15 @@ footer
 {
  padding-right: 1%;
 }
+.icon img
+{
+    transition: transform .1s ;
+}
+.icon img:hover
+{
+    transform: scale(1.3);
+}
+
 
 /* animation de fade in */
 section , main , aside {
